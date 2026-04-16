@@ -49,3 +49,16 @@ Purpose: Keep a concise day-by-day record of code changes, debugging findings, a
   - tests/specs/02_WCSR_MainLP.spec.ts: Simplified TC_31 with URL wait and proper page event handling.
 - **Result**: TC_31 ✅ PASSED (30.8s)
 - **Key Learning**: Prefer URL-based waits + simpler selectors over complex visibility waits for multi-tab scenarios.
+
+### TC_33 Fix: Dropdown Options Console Output Formatting
+- **Issue**: TC_33 console output was printing all dropdown options in a single line.
+- **Solution**: Split text content by newlines and print each line separately for readability.
+- **File Updated**: tests/specs/02_WCSR_MainLP.spec.ts
+- **Result**: Dropdown options now display on separate lines in console output.
+
+### GitHub Upload
+- Initialized git repository in project root.
+- Added remote: `git@github.com:Lankesh-Motorola/WCSR_Automation.git`
+- Committed all files with message: "Initial commit: WCSR Automation test suite with TC_31 and TC_33 fixes"
+- Pushed to master branch ✅
+- **GitHub URL**: https://github.com/Lankesh-Motorola/WCSR_Automation
